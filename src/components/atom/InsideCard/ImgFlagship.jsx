@@ -6,7 +6,7 @@ const ImgFlagship = (props) => {
     <Link href={`/detail/${id}`}>
       <picture className="w-full h-[460px]">
         <source media="(min-width: 768px)" srcSet={`${PhonePicDesktop}`} />
-        <img
+        <image
           src={`${PhonePicMobile}`}
           alt="phone1"
           className="inset-0 object-cover w-full h-[460px]"
